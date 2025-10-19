@@ -12,22 +12,21 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "16": "highlight.png",
+      "48": "highlight.png",
+      "128": "highlight.png"
     }
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["texthighlight.js"],
-      "css": ["texthighlight.css"],
       "run_at": "document_end"
     }
   ],
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "highlight.png",
+    "48": "highlight.png",
+    "128": "highlight.png"
   }
 }
