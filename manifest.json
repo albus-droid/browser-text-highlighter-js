@@ -10,7 +10,8 @@
     "scripting",
     "downloads"
   ],
-  "action": {
+  "browser_action": {
+    "default_title": "Text Highlighter",
     "default_popup": "popup.html",
     "default_icon": "highlight.png"
   },
